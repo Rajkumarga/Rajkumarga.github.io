@@ -324,10 +324,20 @@ color: #fff;
   border: 1px solid #ededed;
   color: #8198ae;
 }
-
 .btn--white:hover{
-  background-color: #fff;
-  color: #8198ae;
+  background-color: rgb(137, 211, 240);
+  color: #ffff;
+}
+.btn--green{
+  background-color:rgb(102, 214, 57) ;
+  border: 1px solid #ededed;
+  color:#ffff;
+}
+
+
+.btn--green:hover{
+  background-color:rgb(139, 214, 136) ;
+  color: #8198ae ;
 }
 
 .price-box__btn {
