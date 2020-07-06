@@ -26,8 +26,8 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 @media only screen and (max-width:600px)
 {
   .site__img{
-    height:165px;
-  width:0px;  }
+    height:50px;
+  width:60px;  }
 }
 @media only screen and (min-width:600px)
 {
@@ -138,14 +138,14 @@ i{
 
 
 
-.price-box--purple .price-box__img{
-  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_good_team_m7uu%20(4).png");
+.price-box--blue1 .price-box__img{
+  background-image: url("https://github.com/Vyshnavinagunuri/bgimages/blob/master/undraw_drone_surveillance_kjjg.png");
 
 }
 
 
-.price-box--violet .price-box__img{
-  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_Data_points_ubvs.png");
+.price-box--blue2 .price-box__img{
+  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_status_update_jjgk.png");
 
 }
 
@@ -180,16 +180,16 @@ i{
     margin-right: 4px;
 }
 
-.price-box--purple .price-box__dollar{
-  color: #8a3aff;
+.price-box--blue1 .price-box__dollar{
+  color: #37b3f6;
 }
 
-.price-box--violet .price-box__dollar{
-  color: #6f79ff;
+.price-box--blue2 .price-box__dollar{
+  color: #37b3f6;
 }
 
 .price-box--blue .price-box__dollar{
-  color: #3a9fff;
+  color: #37b3f6;
 }
 
 .price-box__discount--light{
@@ -236,16 +236,16 @@ i{
   
 }
 
-.price-box--purple .price-box__list-el:before{
-  color: #8a3aff;
+.price-box--blue1 .price-box__list-el:before{
+  color: #37b3f6;
 }
 
-.price-box--violet .price-box__list-el:before{
-  color: #6f79ff;
+.price-box--blue2 .price-box__list-el:before{
+  color: #37b3f6;
 }
 
 .price-box--blue .price-box__list-el:before{
-  color: #3a9fff;
+  color: #37b3f6;
 }
 
 .price-box__wrap:hover {
@@ -271,7 +271,7 @@ i{
 
 .btn:hover{
 box-shadow: 0px 25px 18px -6px rgba(0, 0, 0,0.2);
-background-color: #63b2fc;
+background-color: #3d73f6;
 color: #fff;
 }
 
@@ -295,18 +295,18 @@ color: #fff;
 }
 
 
-.btn--purple {
+.btn--blue1 {
     background-color: #8a3aff;
 }
 
-.btn--purple:hover{
+.btn--blue1:hover{
     background-color: #b284f6;
 }
 
-.btn--violet {
+.btn--blue2 {
     background-color: #6f79ff;
 }
-.btn--violet:hover {
+.btn--blue2:hover {
     background-color: #878ef3;
 }
 
@@ -533,8 +533,8 @@ filter: drop-shadow(0px 7px 4px rgba(0,0,0,.2));
 .header__img{
   display: inline-block;
   vertical-align: middle;
-  width:40px;
-  height:45px;
+  width:50px;
+  height:55px;
 }
 
 .header__logo, .header__menu{
