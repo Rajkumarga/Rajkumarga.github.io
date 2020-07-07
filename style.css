@@ -26,13 +26,13 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 @media only screen and (max-width:600px)
 {
   .site__img{
-    height:50px;
-  width:60px;  }
+    height:350px;
+  width:6px;  }
 }
 @media only screen and (min-width:600px)
 {
   .site__img{
-    height:415px;
+    height:600px;
   width:680px;  }
 }
 @media only screen and (max-width:600px)
@@ -66,7 +66,7 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 }
 
 .sect--violet{
-  background-color:#6f79ff;
+  background-color:#37b3f6;
 }
 
 .sect--padding-bottom{
@@ -139,13 +139,13 @@ i{
 
 
 .price-box--blue1 .price-box__img{
-  background-image: url("https://github.com/Vyshnavinagunuri/bgimages/blob/master/undraw_drone_surveillance_kjjg.png");
+  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_status_update_jjgk.png");
 
 }
 
 
 .price-box--blue2 .price-box__img{
-  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_status_update_jjgk.png");
+  background-image: url("https://raw.githubusercontent.com/Vyshnavinagunuri/bgimages/master/undraw_Data_points_ubvs.png");
 
 }
 
@@ -330,7 +330,7 @@ color: #fff;
   color: #ffff;
 }
 .btn--green{
-  background-color:rgb(102, 214, 57) ;
+  background-color:#4FCE5D ;
   border: 1px solid #ededed;
   color:#ffff;
 }
@@ -787,15 +787,23 @@ right: 25px;
     margin-top: 0;
     margin-bottom: 30px;
 }
-
+@media only screen and (max-width:600px){
 .career-img {
     position: absolute;
     bottom: 0;
-width: 65%;
+width: 30%;
 z-index: 0;
-left: 20%;
+right: 0;
 }
-
+}
+@media only screen and (min-width:600px){
+.career-img {
+  position: absolute;
+  bottom: 0;
+width: 31%;
+z-index: 0;
+right: 5%;
+}}
 
 .footer{
  background-color: #1f4467; 
@@ -870,7 +878,7 @@ vertical-align: middle;
     background-color:transparent;
   }
   .header__el--blue{
-    background-color:#3a9fff;
+    background-color:#37b3f6;
   }
 
 }
